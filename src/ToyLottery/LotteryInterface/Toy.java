@@ -1,4 +1,4 @@
-package ToyLottery;
+package ToyLottery.LotteryInterface;
 
 public class Toy {
     protected int id;
@@ -12,7 +12,6 @@ public class Toy {
         this.amount = amount;
         this.weight = weight;
     }
-
     public int getId() {
         return id;
     }
